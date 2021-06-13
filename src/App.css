@@ -36,3 +36,31 @@
     transform: rotate(360deg);
   }
 }
+.flexCenter{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: beige;
+}
+.customContainer{
+  padding: 5%;
+  min-width: 250px;
+  /* box-shadow: 2px 2px 8px 5px #eee; */
+  background-color: #fff;
+}
+.shColor{
+  color: #158eff;
+}
+.topBar{
+  width:100vw;
+  height: 10vh;
+  display:flex;
+  align-items: center;
+  background: #ffb490;
+  margin-top: 0%;
+  position: relative;
+  justify-content: space-around;
+  padding: 2%;
+}
